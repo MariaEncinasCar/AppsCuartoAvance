@@ -1,0 +1,347 @@
+Collections
+
+normal
+
+/* 1 */
+{
+    "_id" : ObjectId("6198646c96148f57212c32c3"),
+    "avatar" : "emyei",
+    "ciudad" : "ciudad obregon",
+    "contrasena" : "1234567",
+    "correo" : "mjosecarrillo6@gmail.com",
+    "fechaNacimiento" : Date(61567714800000),
+    "genero" : "f",
+    "municipio" : ObjectId("6196ae29bfebcda03587d80b"),
+    "nombreCompleto" : "maria jose encinas",
+    "telefono" : "6449987550"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61986500ed417504d16af05c"),
+    "avatar" : "Robert",
+    "ciudad" : "ciudad obregon",
+    "contrasena" : "09876",
+    "correo" : "roberto@gmail.com",
+    "fechaNacimiento" : Date(61597350000000),
+    "genero" : "m",
+    "municipio" : ObjectId("6196ae29bfebcda03587d805"),
+    "nombreCompleto" : "Roberto encinas",
+    "telefono" : "65543215888"
+}
+
+postComun
+
+/* 1 */
+{
+    "_id" : ObjectId("61982b9f09349e13bafd1ae8"),
+    "titulo" : "Titulo AAAAAAA",
+    "contenido" : "yeepaaa muy buenas gente",
+    "fechaHoraCreacion" : ISODate("2021-11-20T07:39:20.202Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61982bb409349e13bafd1ae9"),
+    "titulo" : "Titulo BBBBBBBBBBB",
+    "contenido" : "Mi nombre es Carlos AAA y acabo de agregar esta cosa",
+    "fechaHoraCreacion" : ISODate("2021-11-20T07:39:20.202Z")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61982c0509349e13bafd1aec"),
+    "titulo" : "Titulo CCCCCCCCCCCCC",
+    "contenido" : "ya matenme, ya he tenido mucho por esta semana u.u",
+    "fechaHoraCreacion" : ISODate("2021-11-20T07:39:20.202Z")
+}
+
+comentario
+
+/* 1 */
+{
+    "_id" : ObjectId("61987b99cf07c4acbd73d8de"),
+    "fechaHora" : ISODate("2021-11-20T07:39:20.202Z"),
+    "contenido" : "Hola",
+    "usuariComun" : "m",
+    "postComun" : ObjectId("61982b9f09349e13bafd1ae8"),
+    "usuarioComun" : ObjectId("6198646c96148f57212c32c3")
+}
+
+estado
+
+/* 1 */
+{
+    "_id" : ObjectId("6196abcabfebcda03587d769"),
+    "nombre" : "Sonora"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6196ac0cbfebcda03587d77d"),
+    "nombre" : "Baja California Sur"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6196ac0cbfebcda03587d780"),
+    "nombre" : "Baja California Norte"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6196ac0dbfebcda03587d783"),
+    "nombre" : "Sinaloa"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6196ac0dbfebcda03587d786"),
+    "nombre" : "Chihuahua"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6196ac0dbfebcda03587d789"),
+    "nombre" : "Colima"
+}
+
+municipio
+
+/* 1 */
+{
+    "_id" : ObjectId("6196adcdbfebcda03587d7dd"),
+    "nombre" : "Aconchi",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d7f9"),
+    "nombre" : "Agua Prieta",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d7fc"),
+    "nombre" : "Alamos",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d7ff"),
+    "nombre" : "Arizpe",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d802"),
+    "nombre" : "Caborca",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d805"),
+    "nombre" : "Cajeme",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d808"),
+    "nombre" : "Huatabampo",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6196ae29bfebcda03587d80b"),
+    "nombre" : "Guaymas",
+    "estado" : ObjectId("6196abcabfebcda03587d769")
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6196aeccbfebcda03587d838"),
+    "nombre" : "Armeria",
+    "estado" : ObjectId("6196ac0dbfebcda03587d789")
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6196aeccbfebcda03587d83b"),
+    "nombre" : "Comala",
+    "estado" : ObjectId("6196ac0dbfebcda03587d789")
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6196aeccbfebcda03587d83e"),
+    "nombre" : "Manzanillo",
+    "estado" : ObjectId("6196ac0dbfebcda03587d789")
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6196aeccbfebcda03587d841"),
+    "nombre" : "Tecomán",
+    "estado" : ObjectId("6196ac0dbfebcda03587d789")
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6196af94bfebcda03587d86d"),
+    "nombre" : "La Paz",
+    "estado" : ObjectId("6196ac0cbfebcda03587d77d")
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6196af94bfebcda03587d870"),
+    "nombre" : "Loreto",
+    "estado" : ObjectId("6196ac0cbfebcda03587d77d")
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6196af94bfebcda03587d873"),
+    "nombre" : "Mulege",
+    "estado" : ObjectId("6196ac0cbfebcda03587d77d")
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6196af94bfebcda03587d876"),
+    "nombre" : "Los Cabos",
+    "estado" : ObjectId("6196ac0cbfebcda03587d77d")
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6196af94bfebcda03587d879"),
+    "nombre" : "Comondu",
+    "estado" : ObjectId("6196ac0cbfebcda03587d77d")
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6196b000bfebcda03587d890"),
+    "nombre" : "Ensenada",
+    "estado" : ObjectId("6196ac0cbfebcda03587d780")
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6196b000bfebcda03587d893"),
+    "nombre" : "Mexicali",
+    "estado" : ObjectId("6196ac0cbfebcda03587d780")
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6196b000bfebcda03587d896"),
+    "nombre" : "Mexicali",
+    "estado" : ObjectId("6196ac0cbfebcda03587d780")
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6196b001bfebcda03587d899"),
+    "nombre" : "Tecate",
+    "estado" : ObjectId("6196ac0cbfebcda03587d780")
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6196b063bfebcda03587d8a8"),
+    "nombre" : "Ahome",
+    "estado" : ObjectId("6196ac0dbfebcda03587d783")
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6196b063bfebcda03587d8ab"),
+    "nombre" : "Angostura",
+    "estado" : ObjectId("6196ac0dbfebcda03587d783")
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6196b063bfebcda03587d8ae"),
+    "nombre" : "Rosario",
+    "estado" : ObjectId("6196ac0dbfebcda03587d783")
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6196b063bfebcda03587d8b1"),
+    "nombre" : "Sinaloa",
+    "estado" : ObjectId("6196ac0dbfebcda03587d783")
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6196b063bfebcda03587d8b4"),
+    "nombre" : "Navolato",
+    "estado" : ObjectId("6196ac0dbfebcda03587d783")
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8d2"),
+    "nombre" : "Aldama",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8d5"),
+    "nombre" : "Allende",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8d8"),
+    "nombre" : "Bocoyna",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8db"),
+    "nombre" : "Coronado",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8de"),
+    "nombre" : "Galeana",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8e1"),
+    "nombre" : "Belleza",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8e4"),
+    "nombre" : "Camargo",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6196b0f1bfebcda03587d8e7"),
+    "nombre" : "Madera",
+    "estado" : ObjectId("6196ac0dbfebcda03587d786")
+}
