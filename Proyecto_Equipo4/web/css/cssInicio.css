@@ -1,0 +1,139 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: whitesmoke;
+    margin-top: 50px;
+    padding: 3px;
+}
+.formularioLogin{
+    background: whitesmoke;
+    margin-top: 50px;
+    padding: 3px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #0E1C57;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+footer{
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    left: 0;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    position: fixed;
+}
+
+.textobajo{
+    padding-left: 30px;
+    font-family: Arial;
+}
+
+h3{
+    color: white;
+    margin-left: 30px;
+    margin-right: 970px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 2px;
+    border: none;
+    background-color: whitesmoke;
+}
+.input-contenedor{
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+}
+.select-contenedor{
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+}
+input[type="date"],
+select{
+    font-size: 20px;
+    width: 100%;
+    padding: 2px;
+    border: none;
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+.radio-contenedor{
+    font-family: Arial;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center
+}
+.icon{
+    min-width: 30px;
+    text-align: center;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #0E1C57;
+    padding: 13px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    text-decoration: #7a7a79;;
+    font-weight: 600;
+}
+.link:hover{
+    color:cadetblue;
+}
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media(min-width:768px){
+    .formularioLogin{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
